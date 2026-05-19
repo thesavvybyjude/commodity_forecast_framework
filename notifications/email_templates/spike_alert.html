@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background: #f5f5f5;
+    }
+    .container {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .header {
+        background: #dc3545;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 8px 8px 0 0;
+        margin: -30px -30px 20px -30px;
+    }
+    .alert-box {
+        background: #fff3cd;
+        border: 1px solid #ffc107;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px 0;
+    }
+    .price-up {
+        color: #dc3545;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .recommendation {
+        background: #d4edda;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 15px;
+        border-left: 4px solid #28a745;
+    }
+    .footer {
+        margin-top: 30px;
+        padding-top: 15px;
+        border-top: 1px solid #ddd;
+        color: #666;
+        font-size: 12px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 style="margin:0">Price Spike Alert</h2>
+        </div>
+
+        <div class="alert-box">
+            <p><strong>Commodity:</strong> {{ commodity }}</p>
+            <p><strong>Market:</strong> {{ market }}</p>
+            <p><strong>Current Price:</strong> NGN {{ current_price }}</p>
+            <p><strong>Previous Price (7 days ago):</strong> NGN {{ prev_price }}</p>
+            <p class="price-up">Change: +{{ change_pct }}%</p>
+        </div>
+
+        <div class="recommendation">
+            <p><strong>Recommendation:</strong></p>
+            <p>{{ recommendation }}</p>
+        </div>
+
+        <div class="footer">
+            <p>Nigeria Commodity Price Forecaster &mdash; Automated Alert System</p>
+            <p>This is an automated notification. To unsubscribe, contact your system administrator.</p>
+        </div>
+    </div>
+</body>
+</html>

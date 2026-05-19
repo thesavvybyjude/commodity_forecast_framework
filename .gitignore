@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (large/generated)
+data/raw/
+data/processed/*.csv
+data/historical/*.csv
+!data/processed/.gitkeep
+!data/historical/.gitkeep
+!data/raw/.gitkeep
+
+# Model files
+models/lstm/*.keras
+models/lstm/*.h5
+models/xgboost/*.joblib
+models/scalers/*.joblib
+
+# Logs
+logs/*.log
+logs/*.csv
+logs/plots/*.png
+logs/plots/*.html
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notifications DB
+notifications/subscribers.db
+
+# Model registry (auto-generated)
+model_registry.json
+
+# ChromeDriver
+chromedriver
+chromedriver.exe
