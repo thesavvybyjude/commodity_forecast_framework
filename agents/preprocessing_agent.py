@@ -29,6 +29,7 @@ class PreprocessingAgent:
         """Full cleaning pipeline: missing → outliers → normalise."""
         logger.info("Starting preprocessing on %d rows", len(df))
         df = df.copy()
+        df = df.replace([np.inf, -np.inf], np.nan)
 
         df = self._handle_missing(df)
         df = self._handle_outliers(df, col='price_ngn')

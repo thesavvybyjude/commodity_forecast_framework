@@ -1,0 +1,39 @@
+
+FullName                                                                                Length LastWriteTime
+--------                                                                                ------ -------------
+C:\Users\thesa\Downloads\hi\logs\.gitkeep                                                    0 07/06/2026 17:51:38
+C:\Users\thesa\Downloads\hi\logs\artefact_inventory.txt                                      0 19/06/2026 09:02:08
+C:\Users\thesa\Downloads\hi\logs\metrics_log.csv                                        148686 19/06/2026 08:39:44
+C:\Users\thesa\Downloads\hi\logs\pip_freeze.txt                                           2026 19/06/2026 09:02:08
+C:\Users\thesa\Downloads\hi\logs\simulation_run.txt                                      68398 19/06/2026 08:18:01
+C:\Users\thesa\Downloads\hi\logs\simulation_state.json                                     182 19/06/2026 08:40:59
+C:\Users\thesa\Downloads\hi\logs\simulation.log                                          63310 19/06/2026 08:40:59
+C:\Users\thesa\Downloads\hi\logs\plots\.gitkeep                                              0 07/06/2026 17:51:38
+C:\Users\thesa\Downloads\hi\evaluation\__init__.py                                           0 07/06/2026 17:51:38
+C:\Users\thesa\Downloads\hi\evaluation\comparison_vs_literature.png                      59127 19/06/2026 08:50:42
+C:\Users\thesa\Downloads\hi\evaluation\error_distribution_boxplot.png                    44271 19/06/2026 08:50:39
+C:\Users\thesa\Downloads\hi\evaluation\evaluate.py                                        2769 07/06/2026 17:51:38
+C:\Users\thesa\Downloads\hi\evaluation\feature_importance.png                            88786 19/06/2026 08:50:41
+C:\Users\thesa\Downloads\hi\evaluation\generate_report.py                                 4042 07/06/2026 17:51:38
+C:\Users\thesa\Downloads\hi\evaluation\plot_results.py                                    4988 07/06/2026 17:51:38
+C:\Users\thesa\Downloads\hi\evaluation\rmse_over_time.png                               124997 19/06/2026 08:50:38
+C:\Users\thesa\Downloads\hi\evaluation\run_full_evaluation.py                             8175 19/06/2026 08:50:34
+C:\Users\thesa\Downloads\hi\evaluation\statistical_tests.py                               3925 07/06/2026 17:51:38
+C:\Users\thesa\Downloads\hi\evaluation\summary_table_1day.csv                             1807 19/06/2026 08:50:38
+C:\Users\thesa\Downloads\hi\evaluation\summary_table_30day.csv                              74 19/06/2026 08:50:38
+C:\Users\thesa\Downloads\hi\evaluation\summary_table_7day.csv                             1981 19/06/2026 08:50:38
+C:\Users\thesa\Downloads\hi\evaluation\wilcoxon_results.csv                                184 19/06/2026 08:50:38
+C:\Users\thesa\Downloads\hi\evaluation\__pycache__\__init__.cpython-311.pyc                159 19/06/2026 08:50:04
+C:\Users\thesa\Downloads\hi\evaluation\__pycache__\run_full_evaluation.cpython-311.pyc   16373 19/06/2026 08:50:04
+C:\Users\thesa\Downloads\hi\reports\week1_report.md                                        969 19/06/2026 08:47:18
+C:\Users\thesa\Downloads\hi\reports\week2_report.md                                        969 19/06/2026 08:47:33
+C:\Users\thesa\Downloads\hi\reports\week3_report.md                                        968 19/06/2026 08:48:10
+C:\Users\thesa\Downloads\hi\reports\charts\week1_rmse_trend.png                          38164 19/06/2026 08:47:18
+C:\Users\thesa\Downloads\hi\reports\charts\week2_rmse_trend.png                          44076 19/06/2026 08:47:33
+C:\Users\thesa\Downloads\hi\reports\charts\week3_rmse_trend.png                          45276 19/06/2026 08:48:10
+C:\Users\thesa\Downloads\hi\data\processed\.gitkeep                                          0 07/06/2026 17:51:38
+C:\Users\thesa\Downloads\hi\data\processed\feature_columns.json                            691 19/06/2026 08:39:44
+C:\Users\thesa\Downloads\hi\data\processed\master_dataset_raw.csv                      1143541 07/06/2026 18:39:02
+C:\Users\thesa\Downloads\hi\data\processed\merged_daily_data.csv                        910268 07/06/2026 18:39:02
+
+

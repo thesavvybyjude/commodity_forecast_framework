@@ -1,0 +1,4 @@
+comparison,statistic,p_value,significant
+Group D vs Group E,0.0,1.4723987842271463e-85,True
+Group D vs Group C,0.0,1.4723987842271463e-85,True
+Group B vs Group A,98827.0,1.0,False

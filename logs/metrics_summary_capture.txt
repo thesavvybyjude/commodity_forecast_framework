@@ -1,0 +1,25 @@
+=== GROUP MEANS ===
+             rmse      mae   mape
+group                            
+A_lstm    2979.09  2979.09  13.17
+B_lstm    6440.15  6440.15  22.22
+C_xgb     6766.46  6766.46  26.55
+D_xgb      253.38   253.38   0.92
+E_static  6766.46  6766.46  26.55
+
+=== COMMODITY MEANS ===
+              rmse      mae   mape
+commodity                         
+maize      5328.08  5328.08  30.51
+rice       6557.76  6557.76  14.92
+tomatoes   2037.48  2037.48   8.22
+
+=== HORIZON MEANS ===
+            rmse      mae   mape
+horizon                         
+1        4486.14  4486.14  17.33
+7        4862.49  4862.49  18.67
+
+=== DATE RANGE ===
+2004-12-10 2004-12-29
+rows 2550

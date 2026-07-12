@@ -47,6 +47,7 @@ class FeatureEngineeringAgent:
         df = self._momentum(df)
         df = self._macro(df)
         df = self._encode(df)
+        df = df.replace([np.inf, -np.inf], np.nan)
 
         # Drop rows where lag/rolling features can't be computed
         df = df.dropna().reset_index(drop=True)
