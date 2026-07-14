@@ -1,0 +1,10 @@
+comparison,commodity,group_a,group_b,n_pairs,statistic,p_value,significant,interpretation
+D vs E — XGB warm-start vs static,rice,D,E,34,303.0,0.5375,False,NO — no significant difference (p=0.537)
+D vs E — XGB warm-start vs static,maize,D,E,34,245.0,0.1893,False,NO — no significant difference (p=0.189)
+D vs E — XGB warm-start vs static,tomatoes,D,E,34,322.0,0.6623,False,NO — no significant difference (p=0.662)
+D vs C — XGB warm-start vs periodic,rice,D,C,34,296.0,0.4898,False,NO — no significant difference (p=0.490)
+D vs C — XGB warm-start vs periodic,maize,D,C,34,245.0,0.1893,False,NO — no significant difference (p=0.189)
+D vs C — XGB warm-start vs periodic,tomatoes,D,C,34,322.0,0.6623,False,NO — no significant difference (p=0.662)
+B vs A — LSTM fine-tune vs periodic,rice,B,A,34,526.0,1.0,False,NO — no significant difference (p=1.000)
+B vs A — LSTM fine-tune vs periodic,maize,B,A,34,270.0,0.3242,False,NO — no significant difference (p=0.324)
+B vs A — LSTM fine-tune vs periodic,tomatoes,B,A,34,329.0,0.7056,False,NO — no significant difference (p=0.706)
