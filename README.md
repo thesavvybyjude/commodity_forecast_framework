@@ -28,7 +28,7 @@ An automated system that:
 
 ```bash
 # 1. Clone and navigate
-git clone <repo-url>
+git clone https://github.com/thesavvybyjude/commodity_forecast_framework.git
 cd commodity_forecast_framework
 
 # 2. Create virtual environment
@@ -190,3 +190,7 @@ python evaluation/generate_report.py    # Formatted report
 ## License
 
 This project is part of a final year dissertation at AFIT Kaduna.
+
+---
+
+Built by [Jude Thompson](https://github.com/thesavvybyjude)
